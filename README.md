@@ -22,7 +22,6 @@ Successfully captured and analyzed network packets, identified multiple protocol
 # Protocols Identified :
 # 1. ARP (Address Resolution Protocol) : Protocol that maps IP addresses to physical MAC addresses on local network segments.
 arp
-<img width="1919" height="886" alt="MDNS" src="https://github.com/user-attachments/assets/640f457f-19b9-489d-9feb-aa5118428817" />
 <img width="1091" height="376" alt="ARPWiresharkfilter" src="https://github.com/user-attachments/assets/ac67679f-2491-4b15-b909-6a1bb81602a6" />
 
 
