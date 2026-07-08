@@ -18,12 +18,15 @@ Target: testphp.vulnweb.com (Vulnerable web application for testing)
 
 # Executive Summary:
 Successfully captured and analyzed network packets, identified multiple protocols including HTTP, DNS, TCP, ICMP, NTP and ARP. The analysis revealed critical security vulnerabilities in unencrypted web traffic and demonstrated effective network monitoring techniques.
+# Over view of wire shark
+<img width="1918" height="852" alt="over view  of wire shark" src="https://github.com/user-attachments/assets/e1f3a141-0058-4433-852b-e879c872dabe" />
 
 # Protocols Identified :
 # 1. ARP (Address Resolution Protocol) : Protocol that maps IP addresses to physical MAC addresses on local network segments.
 arp
-<img width="1919" height="849" alt="ICMP" src="https://github.com/user-attachments/assets/fb70034a-8d59-41d0-b56d-befe59a52bac" />
-<img width="1918" height="852" alt="ARP" src="https://github.com/user-attachments/assets/4c3acc6f-391f-47cf-a32d-b495817f499a" />
+<img width="1919" height="886" alt="MDNS" src="https://github.com/user-attachments/assets/640f457f-19b9-489d-9feb-aa5118428817" />
+<img width="1091" height="376" alt="ARPWiresharkfilter" src="https://github.com/user-attachments/assets/ac67679f-2491-4b15-b909-6a1bb81602a6" />
+
 
 Packets Analyzed: 19 ARP requests/responses
 Function: MAC address resolution and network discovery
@@ -31,9 +34,9 @@ Environment: VMware virtual network
 
 
 # 2. SSDP (Simple Service Discovery Protocol) : Network protocol used for advertisement and discovery of network services and device presence without manual configuration.  
+<img width="1919" height="888" alt="SSDP" src="https://github.com/user-attachments/assets/f46a3457-2eaf-4333-ad2c-d746a3081318" />
 
-<img width="1919" height="886" alt="MDNS" src="https://github.com/user-attachments/assets/003ae898-2aec-4ee4-9ea4-3dcaedc1d501" />
-<img width="1919" height="888" alt="SSDP" src="https://github.com/user-attachments/assets/6fbb02cf-f9e2-46bc-96f1-70c2623a8474" />
+
 IETF Datatracker
 Packets Analyzed: HTTPU (HTTP over UDP) messages on port 1900  
 www.ncsc.gov.ie
@@ -49,11 +52,9 @@ Purpose: Peer-to-peer device discovery and automatic connectivity (the backbone 
 
 # 3. mDNS (Multicast DNS) : Zero-configuration network protocol used to resolve hostnames to IP addresses within small networks without a local name server.
 Packets Analyzed: mDNS queries and responses (UDP port 5353)
+<img width="1919" height="886" alt="MDNS" src="https://github.com/user-attachments/assets/c2f6d9b3-d7d3-45d9-8c40-4bcf50b46b8f" />
 
 
-<img width="1913" height="881" alt="DHCP" src="https://github.com/user-attachments/assets/19ecbc83-7384-4ed4-9549-409304b99f92" />
-<img width="1919" height="889" alt="ICMPV6" src="https://github.com/user-attachments/assets/3cee1a74-0e11-4fdf-b730-c7a786c11bbc" />
-<img width="1919" height="886" alt="MDNS" src="https://github.com/user-attachments/assets/6a28729b-9d08-45c5-ad86-bc5c55b4179d" />
 Types Observed:
 
 Standard Query (Multicast requests sent to find a specific device or service)
